@@ -1,11 +1,9 @@
 {
   "scripts": {
-    "demo": "webpack && open index.html"
+    "demo": "webpack && cat dist/bundle.js"
   },
   "devDependencies": {
-    "css-loader": "^0.23.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
   }
 }
