@@ -24,3 +24,5 @@ npm run demo
 用于对exports进行修饰，比如增加`__esModule`，定义getter，生成fake namespace object等等，
 总之就是要把我们自己写的代码，变成满足一定规则的模块，使得外界可以以相应的模块规则与之交互。
 
+本Demo的重点不在具体的模块规则上，而是在`__webpack_require__`相关的几个函数上。
+
